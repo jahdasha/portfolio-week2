@@ -226,8 +226,7 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-/* media query*/
-
+/* media query 980px*/
 @media screen and (max-width: 980px) {
 
 	.container{
@@ -251,6 +250,7 @@ input[type=submit] {
     /*smaller desktop*/
 }
 
+/* media query 768px*/
 @media screen and (max-width: 768px) {
 
 	.container{
@@ -282,4 +282,27 @@ input[type=submit] {
 		clear: both;
 		}
    /*tablet desktop*/
+}
+
+/* media query 640px*/
+@media screen and (max-width: 640px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 640px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 100%;
+		float: none;
+	}
+	#logo, nav{
+		width: 100%;
+		float: none;
+	}
 }
